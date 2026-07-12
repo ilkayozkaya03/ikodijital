@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Start-Process \"C:\\\\claude\\\\gun1\\\\index.html\")",
+      "PowerShell(Start-Process \"C:\\\\claude\\\\gun1\\\\pazarlama.html\")",
+      "PowerShell(Stop-Job *)",
+      "PowerShell(winget install *)"
+    ]
+  }
+}
