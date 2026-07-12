@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit Web Sayfası</title>
+    <style>
+        body {
+            background: #d6f0ff;
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #4a90d9;
+        }
+        button {
+            background: #4a90d9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #357abd;
+        }
+        #mesaj {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #2a7d2a;
+        }
+    </style>
+</head>
+<body>
+    <h1>Merhaba Dünya!</h1>
+    <p>Bu benim ilk web sayfam.</p>
+    <button onclick="document.getElementById('mesaj').textContent='Butona tıkladınız! 🎉'">
+        Bana tıkla
+    </button>
+    <p id="mesaj"></p>
+</body>
+</html>
